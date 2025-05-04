@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS Assignments</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(16px);
+      border-radius: 16px;
+      padding: 40px 30px;
+      max-width: 600px;
+      width: 90%;
+      text-align: center;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      font-weight: 600;
+    }
+
+    .btn-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 20px;
+    }
+
+    .btn {
+      background: #ffffff;
+      color: #4b0082;
+      padding: 14px 0;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s ease;
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+    }
+
+    .btn:hover {
+      background: #f0e6ff;
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>CSS Assignments</h1>
+    <div class="btn-grid">
+      <a class="btn" href="Externalcss.html">External CSS</a>
+      <a class="btn" href="InlineCssExample.html">Inline CSS</a>
+      <a class="btn" href="InternalCss.html">Internal CSS</a>
+      <a class="btn" href="TimeTable.html">Timetable</a>
+      <a class="btn" href="EmployeeRegistration.html">Employee Form</a>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center Wrapper */
+center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+/* Heading */
+h1 {
+    background-color: #222831;
+    color: #fbd46d;
+    padding: 15px 25px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Container */
+form {
+    background-color: #ffffff;
+    padding: 35px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 550px;
+}
+
+/* Fieldset & Legend */
+fieldset {
+    border: 2px solid #fbd46d;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #393e46;
+    padding: 0 10px;
+}
+
+/* Label & Input Styling */
+label {
+    display: block;
+    margin: 12px 0 6px;
+    font-weight: 600;
+    color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1.5px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border-color: #fbd46d;
+    outline: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+/* Radio/Checkbox Labels */
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+    display: inline-block;
+    font-weight: normal;
+    color: #444;
+}
+
+/* Submit Button */
+button[type="submit"] {
+    margin-top: 20px;
+    background-color: #fbd46d;
+    color: #222831;
+    padding: 12px 22px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #e6be56;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    form {
+        padding: 25px 20px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+}

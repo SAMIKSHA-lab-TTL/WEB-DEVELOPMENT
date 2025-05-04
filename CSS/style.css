@@ -1,0 +1,98 @@
+/* Base Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #222;
+    padding: 30px;
+    line-height: 1.6;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+h3 {
+    margin-left: 20px;
+    color: #555;
+    font-style: italic;
+}
+
+/* List Containers */
+ol, ul {
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+ol li, ul li {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Ordered Lists */
+ol[type="a"] li,
+ol[type="A"] li,
+ol[type="i"] li,
+ol[reversed] li {
+    background-color: #eaf2ff;
+    border-left: 4px solid #5dade2;
+}
+
+ol li:hover {
+    background-color: #d6eaff;
+}
+
+/* Unordered Lists */
+ul[style*="disc"] li {
+    background-color: #e8f5e9;
+    border-left: 4px solid #66bb6a;
+}
+
+ul[style*="circle"] li {
+    background-color: #fff3e0;
+    border-left: 4px solid #ffa726;
+}
+
+ul[style*="square"] li {
+    background-color: #f3e5f5;
+    border-left: 4px solid #ab47bc;
+}
+
+ul[style*="none"] li {
+    background-color: #eeeeee;
+    border-left: 4px solid #757575;
+}
+
+/* List Item Text */
+li b {
+    color: #2c3e50;
+    font-size: 18px;
+}
+
+/* Extra Styling */
+li:hover {
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+
+/* Responsive Headings */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+}
