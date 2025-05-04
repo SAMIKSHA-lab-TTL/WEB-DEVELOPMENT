@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedding Frames in HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f3f3f3;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .frame-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        iframe {
+            border: 2px solid #ddd;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Embedding Frames with the &lt;iframe&gt; Tag</h1>
+
+    <p>This is a demonstration of how to embed external websites or content inside your webpage using iframes.</p>
+
+    <div class="frame-container">
+        
+        <iframe src="https://www.example.com" width="300" height="200" title="Example Website"></iframe>
+        
+        
+        <iframe src="https://www.wikipedia.org" width="300" height="200" title="Wikipedia"></iframe>
+    </div>
+
+    <p>Note: These iframes display different websites within the same page.</p>
+
+</body>
+</html>
