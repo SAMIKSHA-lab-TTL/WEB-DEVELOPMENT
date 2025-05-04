@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Samiksha Patil - Assignments</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+      color: #333;
+      min-height: 100vh;
+    }
+
+    header {
+      background: linear-gradient(135deg, #7F00FF, #E100FF);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+      width: 260px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 8px;
+      background: linear-gradient(90deg, #ff6a00, #ee0979, #00c9ff);
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+    }
+
+    .card a {
+      text-decoration: none;
+      font-weight: 600;
+      color: #6a1b9a;
+      font-size: 1.1em;
+    }
+
+    .card a:hover {
+      color: #e91e63;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: linear-gradient(to right, #ff416c, #ff4b2b);
+      color: white;
+      margin-top: 60px;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        width: 90%;
+      }
+
+      header h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>WEB-DEVELOPMENGT ASSIGNMENTS</h1>
+    <h2>SAMIKSHA SUNIL PATIL</h2>
+    <h3>ROLL NO.155</h3>
+    <h3>Front-End Developer</h3>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <a href="HTML/all.html" target="_blank">HTML PROGRAMS</a>
+  </div>
+    <div class="card">
+      <a href="CSS/css_i.html" target="_blank">CSS PROGRAMS</a>
+  </div>
+  <div class="card">
+    <a href="XML_CSS/XML_index.html" target="_blank">XML_CSS PROGRAMS</a>
+</div>
+  </div>
+
+  <footer>
+    <p>🌈 Created with joy by Samiksha Sunil Patil — © 2025</p>
+  </footer>
+
+</body>
+</html>
